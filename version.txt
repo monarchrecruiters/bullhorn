@@ -1,0 +1,4 @@
+Project Name: CareerPortal
+Build Date: Monday, April 17th, 2017, 2:21:20 PM
+Jenkins Build Number: 21
+Git Info: 8e272d01f5b714e28a818e2b07e651b39dc065eb
