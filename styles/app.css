@@ -1304,7 +1304,8 @@ aside {
               color: #5198DE; }
     aside > section > section.credits {
       margin-top: 4em;
-      color: #797c7e; }
+      color: #797c7e; 
+    }
       aside > section > section.credits span.powered-by {
         font-size: 1em; }
       aside > section > section.credits .bullhorn {
