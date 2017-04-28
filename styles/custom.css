@@ -7,6 +7,10 @@ header.app {
 	display: none;
 }
 
+section.main {
+	padding-left: 0;
+}
+
 /*section.credits {
 	display: none;
 }*/
