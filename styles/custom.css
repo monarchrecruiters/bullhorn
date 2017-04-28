@@ -11,6 +11,10 @@ section.portal > .portal-canvas > section.main {
 	padding-left: 0 !important;
 }
 
+.card > .card-title-category > .card-title {
+	color: rgb(242, 129, 94);
+}
+
 /*section.credits {
 	display: none;
 }*/
