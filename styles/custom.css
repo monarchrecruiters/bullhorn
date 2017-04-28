@@ -7,7 +7,7 @@ header.app {
 	display: none;
 }
 
-section.main {
+section.portal > .portal-canvas > section.main {
 	padding-left: 0;
 }
 
