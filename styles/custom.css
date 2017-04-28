@@ -8,7 +8,7 @@ header.app {
 }
 
 section.portal > .portal-canvas > section.main {
-	padding-left: 0;
+	padding-left: 0 !important;
 }
 
 /*section.credits {
