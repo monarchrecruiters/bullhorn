@@ -15,6 +15,60 @@ section.portal > .portal-canvas > section.main {
 	color: rgb(242, 129, 94);
 }
 
-/*section.credits {
+.card > .card-title-category > .card-category {
+    display: none;
+}
+
+html, body {
+    background-color: #ffffff;
+	font-size: 11px;
+}
+
+.card {
+    background: #f4f4f4;
+}
+
+.list-view section.job-list div.cards > div.card-wrapper > a.card > .card-description {
+	display: none !important;
+}
+
+.card > .card-date {
+    display: none !important;
+}
+
+.bhi-arrow-right:before {
+    color: rgb(242, 129, 94);
+}
+
+section.job-list > h4 {
 	display: none;
-}*/
+}
+
+section.job-detail > div.apply > button.apply {
+	background: rgb(242, 129, 94);
+}
+
+a {
+	color: rgb(242, 129, 94);
+}
+
+a:visited, a:focus, a:active {
+	color: rgb(242, 129, 94);
+}
+
+.modal-container > div.modal > header {
+    background: rgb(242, 129, 94);
+}
+
+.modal-container > div.modal > header > section > span.category {
+    color: rgb(242, 129, 94);
+}
+
+.modal-container > div.modal > div.main section form.apply-form div.form-field.upload-container {
+    border: 1px solid rgb(242, 129, 94);
+    color: rgb(242, 129, 94);
+}
+
+.modal-container > div.modal > header > section > span.location, .modal-container > div.modal > header > section > span.separator, .modal-container > div.modal > header > section > span.type {
+	color: rgb(242, 129, 94);
+}
