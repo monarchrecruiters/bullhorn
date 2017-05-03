@@ -72,3 +72,11 @@ a:visited, a:focus, a:active {
 .modal-container > div.modal > header > section > span.location, .modal-container > div.modal > header > section > span.separator, .modal-container > div.modal > header > section > span.type {
 	color: rgb(242, 129, 94);
 }
+
+@media only screen and (max-width: 992px) {
+	.list-view section.job-list div.cards > div.card-wrapper > a.card > .card-location, .list-view section.job-list div.cards > div.card-wrapper > a.card > .card-type, .card > .card-location, .card > .card-type, .card > .card-separator {
+	    position: relative;
+	    top: -18px;
+	    left: 59%;
+	}
+}
