@@ -79,4 +79,8 @@ a:visited, a:focus, a:active {
 	    top: -18px;
 	    left: 59%;
 	}
+	
+	.list-view section.job-list div.cards > div.card-wrapper > a.card {
+	    padding-bottom: 0;
+	}
 }
