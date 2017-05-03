@@ -76,7 +76,7 @@ a:visited, a:focus, a:active {
 @media only screen and (max-width: 992px) {
 	.list-view section.job-list div.cards > div.card-wrapper > a.card > .card-location, .list-view section.job-list div.cards > div.card-wrapper > a.card > .card-type, .card > .card-location, .card > .card-type, .card > .card-separator {
 	    position: relative;
-	    top: -18px;
+	    top: -17px;
 	    left: 59%;
 	}
 	
