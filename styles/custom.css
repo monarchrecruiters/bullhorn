@@ -142,7 +142,7 @@ section.job-detail > div.description > button.apply {
 /*remove box shadow from job description*/
 section.job-detail > div.description {
 	box-shadow: none;
-	padding: 0; 
+	padding: 100px; 
 }
 
 /*remove side box in job description*/
