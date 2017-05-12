@@ -76,16 +76,75 @@ a:visited, a:focus, a:active {
 @media only screen and (max-width: 992px) {
 	.list-view section.job-list div.cards > div.card-wrapper > a.card > .card-location, .list-view section.job-list div.cards > div.card-wrapper > a.card > .card-type, .card > .card-location, .card > .card-type, .card > .card-separator {
 	    position: relative;
-	    top: -17px;
+	    top: -18px;
 	    left: 59%;
 	}
-	
-	.list-view section.job-list div.cards > div.card-wrapper > a.card {
-	    padding-bottom: 0;
-	}
+}
 
-	.card > .card-title-category > .card-title {
-    		position: relative;
-    		top: 3px;
-	}
+/*May 11*/
+.card { background-color: white }
+
+.list-view section.job-list div.cards > div.card-wrapper > a.card { 
+	box-shadow: none; 
+	border-bottom: 1px solid black;
+	padding-top: 0px;
+	padding-left: 0px;
+}
+
+.card-location {     
+	left: -106px;
+	position: relative;
+}
+
+.slide-up-item > .card-title-category > .card-title {
+    color: black;
+    font-size: 1.6em;
+}
+
+.slide-up-item > .card-title-category > .card-title:hover {
+    color: rgb(242, 129, 94);
+}
+
+.slide-up-item > .card-location, .slide-up-item > .card-type { color: black; font-size: 1.25em;}
+
+.slide-up-item > .card-location:hover, .slide-up-item > .card-type:hover { color: #939597; }
+
+.description > .card-location, .description > .card-type {
+	position: inherit; 
+	color: #6c6f71;
+    font-weight: 500;
+    font-size: 1.1em;
+    margin: 2px;
+}
+
+section.job-detail > div.description > div.job-details {
+    margin-top: 2em;
+}
+
+section.job-detail > div.description > button.apply:hover {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+section.job-detail > div.description > button.apply {
+    background: rgb(242, 129, 94);
+    cursor: pointer;
+    width: 247px;
+    border: none;
+    color: #FFFFFF;
+    padding: 0.5em;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1.3em;
+    margin-top: 1em;
+}
+
+/*remove box shadow from job description*/
+section.job-detail > div.description {
+	box-shadow: none;
+}
+
+/*remove side box in job description*/
+section.job-detail > div.apply {
+	display: none;
 }
