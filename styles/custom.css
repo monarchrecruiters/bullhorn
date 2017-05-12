@@ -139,9 +139,10 @@ section.job-detail > div.description > button.apply {
     margin-top: 1em;
 }
 
-/*remove box shadow from job description*/
+/*remove box shadow from job description, and move over to left*/
 section.job-detail > div.description {
-
+    box-shadow: none;
+    padding: 0;
 }
 
 /*remove side box in job description*/
