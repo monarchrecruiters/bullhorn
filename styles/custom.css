@@ -168,3 +168,8 @@ section.job-detail > div.description {
 section.job-detail > div.apply {
 	display: none;
 }
+
+/*give some room for apply button to be seen*/
+section.job-detail > div.description {
+    margin-bottom: 50px;
+}
