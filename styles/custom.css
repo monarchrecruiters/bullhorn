@@ -79,6 +79,18 @@ a:visited, a:focus, a:active {
 	    top: -18px;
 	    left: 59%;
 	}
+    .slide-up-item {
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    section.job-detail > div.description {
+        padding-left: 20px !important;
+        padding-right: 10px !important;
+    }
+    .slide-up-item .card-title {
+        position: relative;
+        top: 5px;
+    }
 }
 
 /*May 11*/
@@ -91,14 +103,21 @@ a:visited, a:focus, a:active {
 	padding-left: 0px;
 }
 
-.card-location {     
-	left: -106px;
-	position: relative;
+.slide-up-item > .card-location {     
+	left: 0px;
+    top: 18px;
+    text-align: left !important;
+	position: absolute;
 }
 
 .slide-up-item > .card-title-category > .card-title {
     color: black;
     font-size: 1.6em;
+    margin-bottom: 0.5em !important;
+}
+
+.slide-up-item {
+    margin-bottom: 5px !important;
 }
 
 .slide-up-item > .card-title-category > .card-title:hover {
@@ -141,7 +160,7 @@ section.job-detail > div.description > button.apply {
 
 /*remove box shadow from job description, and move over to left*/
 section.job-detail > div.description {
-    box-shadow: none;
+	box-shadow: none;
     padding: 0;
 }
 
