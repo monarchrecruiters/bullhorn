@@ -175,3 +175,8 @@ section.job-detail > div.apply {
 section.job-detail > div.description {
     margin-bottom: 50px;
 }
+
+.list-view section.job-list div.cards > div.card-wrapper > a.card > .card-location {
+	font-weight: 400 !important;
+	margin-top: 3px !important;
+}
