@@ -76,8 +76,8 @@ a:visited, a:focus, a:active {
 @media only screen and (max-width: 992px) {
 	.list-view section.job-list div.cards > div.card-wrapper > a.card > .card-location, .list-view section.job-list div.cards > div.card-wrapper > a.card > .card-type, .card > .card-location, .card > .card-type, .card > .card-separator {
 	    position: relative;
-	    top: -18px;
-	    left: 59%;
+        top: -4px;
+        left: 0%;
 	}
     .slide-up-item {
         padding-bottom: 0;
