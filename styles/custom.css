@@ -78,6 +78,8 @@ a:visited, a:focus, a:active {
 	    position: relative;
         top: -4px;
         left: 0%;
+	font-weight: 400; 
+	margin-top: 3px;
 	}
     .slide-up-item {
         padding-bottom: 0;
